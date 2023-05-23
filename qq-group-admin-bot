@@ -1,0 +1,14 @@
+git clone https://github.com/QGAB-Team/qq-group-admin-bot.git
+cd qq-group-admin-bot
+git remote add gitlab https://gitlab.com/QGAB-Team/qq-group-admin-bot.git
+git remote add jihulab https://jihulab.com/QGAB-Team/qq-group-admin-bot.git
+git remote add gitee https://gitee.com/QGAB-Team/qq-group-admin-bot.git
+git fetch gitlab
+git fetch jihulab
+git fetch gitee
+git push https://github.com/QGAB-Team/qq-group-admin-bot.git
+git push https://gitlab.com/QGAB-Team/qq-group-admin-bot.git
+git push https://jihulab.com/QGAB-Team/qq-group-admin-bot.git
+git push https://gitee.com/QGAB-Team/qq-group-admin-bot.git
+cd ../
+rm -rf qq-group-admin-bot

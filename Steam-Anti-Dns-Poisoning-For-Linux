@@ -1,0 +1,14 @@
+git clone https://github.com/hm9245-dnd/Steam-Anti-Dns-Poisoning-For-Linux.git
+cd Steam-Anti-Dns-Poisoning-For-Linux
+git remote add gitlab https://gitlab.com/hm9245-dnd/Steam-Anti-Dns-Poisoning-For-Linux.git
+git remote add jihulab https://jihulab.com/hm9245-dnd/Steam-Anti-Dns-Poisoning-For-Linux.git
+git remote add gitee https://gitee.com/hm9245-dnd/Steam-Anti-Dns-Poisoning-For-Linux.git
+git fetch gitlab
+git fetch jihulab
+git fetch gitee
+git push https://github.com/hm9245-dnd/Steam-Anti-Dns-Poisoning-For-Linux.git
+git push https://gitlab.com/hm9245-dnd/Steam-Anti-Dns-Poisoning-For-Linux.git
+git push https://jihulab.com/hm9245-dnd/Steam-Anti-Dns-Poisoning-For-Linux.git
+git push https://gitee.com/hm9245-dnd/Steam-Anti-Dns-Poisoning-For-Linux.git
+cd ../
+rm -rf Steam-Anti-Dns-Poisoning-For-Linux

@@ -1,0 +1,14 @@
+git clone https://github.com/hm9245-dnd/download_haoming_gq.git
+cd download_haoming_gq
+git remote add gitlab https://gitlab.com/hm9245-dnd/download_haoming_gq.git
+git remote add jihulab https://jihulab.com/hm9245-dnd/download_haoming_gq.git
+git remote add gitee https://gitee.com/hm9245-dnd/download_haoming_gq.git
+git fetch gitlab
+git fetch jihulab
+git fetch gitee
+git push https://github.com/hm9245-dnd/download_haoming_gq.git
+git push https://gitlab.com/hm9245-dnd/download_haoming_gq.git
+git push https://jihulab.com/hm9245-dnd/download_haoming_gq.git
+git push https://gitee.com/hm9245-dnd/download_haoming_gq.git
+cd ../
+rm -rf download_haoming_gq
